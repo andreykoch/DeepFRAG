@@ -8,4 +8,5 @@ For running the code and reproducing the results, the data must be extracted fro
 
 
 
-The requirements.txt list all packages in the environment.
+The requirements.txt lists all packages in the environment.
+
