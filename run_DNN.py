@@ -57,8 +57,10 @@ Ntr_inst = 20
 ## paths
 #
 refDir = './data/TrainTestPaths/'
-resDir = './data/Test_Results/DWT_DNN/'
-resDir = './data/Test_Results/PMF_DNN/'
+if dwt_input:
+    resDir = './data/Test_Results/DWT_DNN/'
+else:
+    resDir = './data/Test_Results/PMF_DNN/'
 fDatName = 'FSpmf_TrainTestPaths_'
 fResName = 'TestPerf_df'
 #
