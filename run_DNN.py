@@ -134,8 +134,8 @@ def make_test_dfs(fpathsTst, labelsTst):
     i_canc = 0
     for fPath in fpathsTst:
         path = fPath.split('_')
-        cohort = path[0].split('/')[-1]
-        FCid = path[1].split('/')[0]
+        cohort = path[1].split('/')[0]
+        FCid = path[0].split('/')[-1]
         Sid = path[1].split('/')[-1]
         if len(path) == 3:
             ExSid = ''
